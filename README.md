@@ -2,14 +2,19 @@
 
 A quick script to benchmark a linux computer.
 
-Install and run:
+Install dependencies:
 
 ```
-chmod +x install.sh
-./install.sh
-chmod +x benchmark.sh
-./benchmark.sh
+mkdir benchmark
+cd benchmark
+bash <(curl -Ls https://raw.githubusercontent.com/themcaffee/quick-linux-benchmark/master/install.sh)
 ```
+
+Run (same directory as install):
+```
+bash <(curl -Ls https://raw.githubusercontent.com/themcaffee/quick-linux-benchmark/master/benchmark.sh)
+```
+
 
 - Displays CPU info
 - CPU benchmark
